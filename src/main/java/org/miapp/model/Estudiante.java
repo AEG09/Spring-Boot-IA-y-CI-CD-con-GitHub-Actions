@@ -6,7 +6,7 @@ import lombok.Data; // Si usas Lombok, te ahorras escribir getters y setters
 
 
 @Entity
-
+@Data
 @Table(name = "estudiantes")
 
 public class Estudiante {
